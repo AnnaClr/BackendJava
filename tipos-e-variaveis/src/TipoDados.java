@@ -9,14 +9,26 @@ public class TipoDados {
 		// double salarioMinimo = 2.500; // tipo "double", nome "salarioMinimo", valor 2.500.
 		// Atenção: existe algumas peculiaridades a trabalhar com alguns tipos específicos. Observe no exemplo abaixo:
 		
-		// byte idade = 123;
-		// short ano = 2021;
-		// int cep = 21070333; // se começar com zero, talvez tenha que ser outro tipo
-		// long cpf = 98765432109L; // se começar com zero, talvez tenha que ser outro tipo
-		// float pi = 3.14F;
-		// double salario = 1275.33;
+		byte idade = 123;
+		System.out.println(idade);
+	
+		short ano = 2021;
+		System.out.println(ano);
+		
+		int cep = 21070333; // se começar com zero, talvez tenha que ser outro tipo
+		System.out.println(cep);
+		
+		long cpf = 98765432109L; // se começar com zero, talvez tenha que ser outro tipo
+		System.out.println(cpf);
+
+		float pi = 3.14F;
+		System.out.println(pi);
+	
+		double salario = 1275.33;
+		System.out.println(salario);
 
 		// TiposEVariaveis.java
+
 		// short numeroCurto = 1;
 		// int numeroNormal = numeroCurto;
 		// short numeroCurto2 = numeroNormal;
@@ -25,14 +37,16 @@ public class TipoDados {
 		 * esta linha é considerada como declaração de variável iniciamos a existência
 		 * variavel numero com valor 5 regra: tipo + nome + valor
 		*/
-		// int numero = 5;
+		
+		int numero = 5;
 
 		/*
 		 * na linha abaixo iremos alterar o valor do varíavel para 10 observe que o tipo
 		 * não é mais necessário, pois a variável já foi declarada anteriormente
 		*/
-		// numero = 10;
-		// System.out.print(numero);
+		
+		numero = 10;
+		System.out.print(numero);
 		
 		/*
 		 * ao usar a palavra reservada final, você determina que jamais
@@ -42,7 +56,7 @@ public class TipoDados {
 		*/
 
 		// final double VALOR_DE_PI = 3.14;
-		// VALOR_DE_PI=3.15; // Esta linha vai apresentar erro de compilação!
+		// VALOR_DE_PI= 3.15; // Esta linha vai apresentar erro de compilação!
 
 	}
 }
