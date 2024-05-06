@@ -1,5 +1,4 @@
 // ANATOMIA DAS CLASSES - AULAS 1-4
-
 package edu.ana.pasta2;
 public class MyClass {
     public static void main(String[] args) {

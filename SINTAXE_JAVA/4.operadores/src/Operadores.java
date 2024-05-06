@@ -194,7 +194,7 @@ public class Operadores {
             System.out.println("Os dois valores precisam ser verdadeiros");;
 
         // Se condicao1 OU condicao2 for verdadeira, executar código.
-        if(condicao1 || condicao2)
+           if(condicao1 || condicao2)
             System.out.println("Um dos valores precisa ser verdadeiro");
 
         // ComparacaoAvancada.java
