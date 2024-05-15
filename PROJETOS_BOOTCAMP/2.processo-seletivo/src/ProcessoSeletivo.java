@@ -1,6 +1,5 @@
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
-
 public class ProcessoSeletivo {
     public static void main(String[] args) {
         seleçãoCandidatos();
