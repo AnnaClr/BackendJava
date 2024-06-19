@@ -1,7 +1,6 @@
 public class Caneta {
-
     private String cor;
-    public Caneta(String cor, Stirng marca, String dono) {
+    public Caneta(String cor, String marca, String dono) {
         this.cor = cor;
         this.marca = marca;
         this.dono = dono;
@@ -12,11 +11,11 @@ public class Caneta {
     public void setCor(String cor) {
         this.cor = cor;
     }
-    private Stirng marca;
-    public Stirng getMarca() {
+    private String marca;
+    public String getMarca() {
         return marca;
     }
-    public void setMarca(Stirng marca) {
+    public void setMarca(String marca) {
         this.marca = marca;
     }
     private String dono;
